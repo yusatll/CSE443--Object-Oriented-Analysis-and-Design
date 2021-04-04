@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>hw1_part1</OriginalElement>
+  <nodes>
+    <node x="277.0" y="113.5">hw1_part1.MatrixSolver</node>
+    <node x="266.0" y="296.0">hw1_part1.Main</node>
+    <node x="0.0" y="104.0">hw1_part1.Matrix_Inversion</node>
+    <node x="279.0" y="0.0">hw1_part1.LinearSolverDeluxe</node>
+    <node x="539.0" y="148.0">hw1_part1.Gaussian_Elimination</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="hw1_part1.Matrix_Inversion" target="hw1_part1.LinearSolverDeluxe">
+      <point x="0.0" y="-71.0" />
+      <point x="128.5" y="79.0" />
+      <point x="308.75" y="79.0" />
+      <point x="-89.25" y="27.0" />
+    </edge>
+    <edge source="hw1_part1.MatrixSolver" target="hw1_part1.LinearSolverDeluxe">
+      <point x="-60.5" y="-61.5" />
+      <point x="337.5" y="79.0" />
+      <point x="368.25" y="79.0" />
+      <point x="-29.75" y="27.0" />
+    </edge>
+    <edge source="hw1_part1.Main" target="hw1_part1.MatrixSolver">
+      <point x="-33.0" y="-60.0" />
+      <point x="365.0" y="271.0" />
+      <point x="337.5" y="271.0" />
+      <point x="-60.5" y="61.5" />
+    </edge>
+    <edge source="hw1_part1.Main" target="hw1_part1.Gaussian_Elimination">
+      <point x="99.0" y="-60.0" />
+      <point x="497.0" y="271.0" />
+      <point x="658.0" y="271.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="hw1_part1.Gaussian_Elimination" target="hw1_part1.LinearSolverDeluxe">
+      <point x="0.0" y="-27.0" />
+      <point x="658.0" y="79.0" />
+      <point x="487.25" y="79.0" />
+      <point x="89.25" y="27.0" />
+    </edge>
+    <edge source="hw1_part1.Main" target="hw1_part1.Matrix_Inversion">
+      <point x="-99.0" y="-60.0" />
+      <point x="299.0" y="271.0" />
+      <point x="128.5" y="271.0" />
+      <point x="0.0" y="71.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9" x="382.1111111111111" y="247.00000000000006" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
